@@ -59,7 +59,7 @@ The Adaptive Gaussian Thresholding algorithm implemented in this notebook for we
 
 Here's an example demonstrating the usage of the Adaptive Gaussian Thresholding algorithm for webcam images:
 
-python
+``` python
 # Import the required functions from the AdaptiveGaussianThresholdWebcam.ipynb notebook
 from AdaptiveGaussianThresholdWebcam import adaptive_gaussian_threshold_webcam
 
@@ -71,6 +71,7 @@ noise_removal_method = 'morphological'
 # Apply Adaptive Gaussian Thresholding to webcam frames
 adaptive_gaussian_threshold_webcam(block_size, constant_offset, noise_removal_method)
 
+```
 
 Adjust the block_size and constant_offset parameters to fine-tune the thresholding process. You can choose different noise removal methods, such as 'morphological' or 'filtering', based on the characteristics of your video frames and noise.
 
